@@ -1,0 +1,116 @@
+{
+    "weathers":[{
+    "date": "2024-01-24T05:00:00",
+    "weather": "mostly_cloudy",
+    "icon": 5,
+    "summary": "Mostly cloudy",
+    "temperature": 20.5,
+    "wind": {
+        "speed": 3.4,
+        "dir": "SSE",
+        "angle": 151
+    },
+    "cloud_cover": {
+        "total": 75
+    },
+    "precipitation": {
+        "total": 0.0,
+        "type": "none"
+    }
+},
+{
+    "date": "2024-01-24T06:00:00",
+    "weather": "mostly_cloudy",
+    "icon": 5,
+    "summary": "Mostly cloudy",
+    "temperature": 22.0,
+    "wind": {
+        "speed": 3.7,
+        "dir": "SSE",
+        "angle": 148
+    },
+    "cloud_cover": {
+        "total": 74
+    },
+    "precipitation": {
+        "total": 0.0,
+        "type": "none"
+    }
+},
+{
+    "date": "2024-01-24T07:00:00",
+    "weather": "cloudy",
+    "icon": 6,
+    "summary": "Cloudy",
+    "temperature": 23.5,
+    "wind": {
+        "speed": 3.3,
+        "dir": "SE",
+        "angle": 144
+    },
+    "cloud_cover": {
+        "total": 83
+    },
+    "precipitation": {
+        "total": 0.0,
+        "type": "none"
+    }
+},
+{
+    "date": "2024-01-24T08:00:00",
+    "weather": "overcast",
+    "icon": 7,
+    "summary": "Overcast",
+    "temperature": 25.0,
+    "wind": {
+        "speed": 2.3,
+        "dir": "SE",
+        "angle": 146
+    },
+    "cloud_cover": {
+        "total": 94
+    },
+    "precipitation": {
+        "total": 0.0,
+        "type": "none"
+    }
+},
+{
+    "date": "2024-01-24T09:00:00",
+    "weather": "overcast",
+    "icon": 7,
+    "summary": "Overcast",
+    "temperature": 26.0,
+    "wind": {
+        "speed": 1.6,
+        "dir": "SE",
+        "angle": 131
+    },
+    "cloud_cover": {
+        "total": 97
+    },
+    "precipitation": {
+        "total": 0.0,
+        "type": "none"
+    }
+},
+{
+    "date": "2024-01-24T10:00:00",
+    "weather": "overcast",
+    "icon": 7,
+    "summary": "Overcast",
+    "temperature": 26.2,
+    "wind": {
+        "speed": 1.8,
+        "dir": "ENE",
+        "angle": 70
+    },
+    "cloud_cover": {
+        "total": 99
+    },
+    "precipitation": {
+        "total": 0.0,
+        "type": "none"
+    }
+}]
+}

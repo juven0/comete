@@ -1,0 +1,683 @@
+{
+    "lat": "18.91368S",
+    "lon": "47.53613E",
+    "elevation": 1274,
+    "timezone": "UTC",
+    "units": "metric",
+    "current": {
+        "icon": "cloudy",
+        "icon_num": 6,
+        "summary": "Cloudy",
+        "temperature": 25.8,
+        "wind": {
+            "speed": 5.1,
+            "angle": 101,
+            "dir": "E"
+        },
+        "precipitation": {
+            "total": 0.0,
+            "type": "none"
+        },
+        "cloud_cover": 89
+    },
+    "hourly": {
+        "data": [
+            {
+                "date": "2024-01-23T13:00:00",
+                "weather": "cloudy",
+                "icon": 6,
+                "summary": "Cloudy",
+                "temperature": 25.8,
+                "wind": {
+                    "speed": 5.1,
+                    "dir": "E",
+                    "angle": 101
+                },
+                "cloud_cover": {
+                    "total": 89
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T14:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 24.8,
+                "wind": {
+                    "speed": 4.6,
+                    "dir": "ESE",
+                    "angle": 113
+                },
+                "cloud_cover": {
+                    "total": 94
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T15:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 23.0,
+                "wind": {
+                    "speed": 4.1,
+                    "dir": "E",
+                    "angle": 97
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T16:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 21.2,
+                "wind": {
+                    "speed": 3.7,
+                    "dir": "ESE",
+                    "angle": 104
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T17:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 20.2,
+                "wind": {
+                    "speed": 2.7,
+                    "dir": "ESE",
+                    "angle": 115
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T18:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 19.8,
+                "wind": {
+                    "speed": 2.5,
+                    "dir": "SE",
+                    "angle": 130
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T19:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 19.5,
+                "wind": {
+                    "speed": 3.2,
+                    "dir": "SE",
+                    "angle": 139
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T20:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 19.2,
+                "wind": {
+                    "speed": 2.6,
+                    "dir": "SE",
+                    "angle": 124
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T21:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 18.8,
+                "wind": {
+                    "speed": 2.2,
+                    "dir": "SE",
+                    "angle": 142
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T22:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 18.2,
+                "wind": {
+                    "speed": 1.7,
+                    "dir": "SE",
+                    "angle": 132
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-23T23:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 18.0,
+                "wind": {
+                    "speed": 1.5,
+                    "dir": "ESE",
+                    "angle": 120
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T00:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 17.8,
+                "wind": {
+                    "speed": 1.5,
+                    "dir": "SE",
+                    "angle": 128
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T01:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 17.8,
+                "wind": {
+                    "speed": 2.0,
+                    "dir": "SE",
+                    "angle": 142
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T02:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 17.5,
+                "wind": {
+                    "speed": 2.2,
+                    "dir": "SE",
+                    "angle": 137
+                },
+                "cloud_cover": {
+                    "total": 99
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T03:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 17.8,
+                "wind": {
+                    "speed": 2.0,
+                    "dir": "SE",
+                    "angle": 138
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T04:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 19.0,
+                "wind": {
+                    "speed": 2.1,
+                    "dir": "SE",
+                    "angle": 137
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T05:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 5,
+                "summary": "Mostly cloudy",
+                "temperature": 20.5,
+                "wind": {
+                    "speed": 3.4,
+                    "dir": "SSE",
+                    "angle": 151
+                },
+                "cloud_cover": {
+                    "total": 75
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T06:00:00",
+                "weather": "mostly_cloudy",
+                "icon": 5,
+                "summary": "Mostly cloudy",
+                "temperature": 22.0,
+                "wind": {
+                    "speed": 3.7,
+                    "dir": "SSE",
+                    "angle": 148
+                },
+                "cloud_cover": {
+                    "total": 74
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T07:00:00",
+                "weather": "cloudy",
+                "icon": 6,
+                "summary": "Cloudy",
+                "temperature": 23.5,
+                "wind": {
+                    "speed": 3.3,
+                    "dir": "SE",
+                    "angle": 144
+                },
+                "cloud_cover": {
+                    "total": 83
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T08:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 25.0,
+                "wind": {
+                    "speed": 2.3,
+                    "dir": "SE",
+                    "angle": 146
+                },
+                "cloud_cover": {
+                    "total": 94
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T09:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 26.0,
+                "wind": {
+                    "speed": 1.6,
+                    "dir": "SE",
+                    "angle": 131
+                },
+                "cloud_cover": {
+                    "total": 97
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T10:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 26.2,
+                "wind": {
+                    "speed": 1.8,
+                    "dir": "ENE",
+                    "angle": 70
+                },
+                "cloud_cover": {
+                    "total": 99
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T11:00:00",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Overcast",
+                "temperature": 25.8,
+                "wind": {
+                    "speed": 3.0,
+                    "dir": "NE",
+                    "angle": 50
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.0,
+                    "type": "none"
+                }
+            },
+            {
+                "date": "2024-01-24T12:00:00",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Light rain",
+                "temperature": 24.5,
+                "wind": {
+                    "speed": 3.0,
+                    "dir": "ENE",
+                    "angle": 58
+                },
+                "cloud_cover": {
+                    "total": 100
+                },
+                "precipitation": {
+                    "total": 0.2,
+                    "type": "rain"
+                }
+            }
+        ]
+    },
+    "daily": {
+        "data": [
+            {
+                "day": "2024-01-23",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Cloudy. Temperature 19/28 °C.",
+                "all_day": {
+                    "weather": "overcast",
+                    "icon": 7,
+                    "temperature": 22.2,
+                    "temperature_min": 19.0,
+                    "temperature_max": 27.8,
+                    "wind": {
+                        "speed": 2.4,
+                        "dir": "ESE",
+                        "angle": 119
+                    },
+                    "cloud_cover": {
+                        "total": 97
+                    },
+                    "precipitation": {
+                        "total": 0.8,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            },
+            {
+                "day": "2024-01-24",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Cloudy changing to possible rain in the afternoon. Temperature 18/26 °C.",
+                "all_day": {
+                    "weather": "psbl_rain",
+                    "icon": 12,
+                    "temperature": 20.8,
+                    "temperature_min": 17.5,
+                    "temperature_max": 26.2,
+                    "wind": {
+                        "speed": 2.2,
+                        "dir": "ESE",
+                        "angle": 112
+                    },
+                    "cloud_cover": {
+                        "total": 97
+                    },
+                    "precipitation": {
+                        "total": 10.1,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            },
+            {
+                "day": "2024-01-25",
+                "weather": "psbl_rain",
+                "icon": 12,
+                "summary": "Cloudy changing to possible rain in the afternoon. Temperature falling to 19 °C.",
+                "all_day": {
+                    "weather": "psbl_rain",
+                    "icon": 12,
+                    "temperature": 17.8,
+                    "temperature_min": 16.8,
+                    "temperature_max": 18.8,
+                    "wind": {
+                        "speed": 1.8,
+                        "dir": "ESE",
+                        "angle": 110
+                    },
+                    "cloud_cover": {
+                        "total": 100
+                    },
+                    "precipitation": {
+                        "total": 9.8,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            },
+            {
+                "day": "2024-01-26",
+                "weather": "overcast",
+                "icon": 7,
+                "summary": "Cloudy. Temperature 16/20 °C.",
+                "all_day": {
+                    "weather": "overcast",
+                    "icon": 7,
+                    "temperature": 17.5,
+                    "temperature_min": 15.8,
+                    "temperature_max": 19.5,
+                    "wind": {
+                        "speed": 2.0,
+                        "dir": "E",
+                        "angle": 97
+                    },
+                    "cloud_cover": {
+                        "total": 97
+                    },
+                    "precipitation": {
+                        "total": 0.6,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            },
+            {
+                "day": "2024-01-27",
+                "weather": "mostly_cloudy",
+                "icon": 5,
+                "summary": "Mostly cloudy changing to rain showers in the afternoon. Temperature rising to 25 °C.",
+                "all_day": {
+                    "weather": "mostly_cloudy",
+                    "icon": 5,
+                    "temperature": 20.0,
+                    "temperature_min": 16.5,
+                    "temperature_max": 24.8,
+                    "wind": {
+                        "speed": 1.9,
+                        "dir": "NNW",
+                        "angle": 343
+                    },
+                    "cloud_cover": {
+                        "total": 79
+                    },
+                    "precipitation": {
+                        "total": 0.6,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            },
+            {
+                "day": "2024-01-28",
+                "weather": "rain_shower",
+                "icon": 13,
+                "summary": "Rain showers changing to light rain by evening. Temperature 16/26 °C.",
+                "all_day": {
+                    "weather": "rain_shower",
+                    "icon": 13,
+                    "temperature": 20.5,
+                    "temperature_min": 15.8,
+                    "temperature_max": 25.5,
+                    "wind": {
+                        "speed": 1.5,
+                        "dir": "NW",
+                        "angle": 307
+                    },
+                    "cloud_cover": {
+                        "total": 65
+                    },
+                    "precipitation": {
+                        "total": 4.4,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            },
+            {
+                "day": "2024-01-29",
+                "weather": "light_rain",
+                "icon": 10,
+                "summary": "Possible rain in the morning, light rain in the afternoon. Temperature 18/24 °C.",
+                "all_day": {
+                    "weather": "light_rain",
+                    "icon": 10,
+                    "temperature": 20.2,
+                    "temperature_min": 17.5,
+                    "temperature_max": 24.2,
+                    "wind": {
+                        "speed": 1.1,
+                        "dir": "NE",
+                        "angle": 53
+                    },
+                    "cloud_cover": {
+                        "total": 85
+                    },
+                    "precipitation": {
+                        "total": 17.6,
+                        "type": "rain"
+                    }
+                },
+                "morning": null,
+                "afternoon": null,
+                "evening": null
+            }
+        ]
+    }
+}
