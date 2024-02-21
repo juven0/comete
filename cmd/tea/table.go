@@ -6,17 +6,17 @@ import (
 	"github.com/charmbracelet/lipgloss"
 )
 
-var basStyle = lipgloss.NewStyle().
-	BorderStyle(lipgloss.BlockBorder()).
+var BasStyle = lipgloss.NewStyle().
+	BorderStyle(lipgloss.NormalBorder()).
 	BorderBottomForeground(lipgloss.Color("240"))
 
-type model struct {
-	table table.Model
+type Model struct {
+	Table table.Model
 }
 
-func (m model) Init() tea.Cmd { return nil }
+func (m Model) Init() tea.Cmd { return nil }
 
-func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmd tea.Cmd
 	switch msg := msg.(type) {
 	case tea.KeyMsg:
@@ -25,10 +25,10 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			return m, tea.Quit
 		}
 	}
-	m.table, cmd = m.table.Update(msg)
+	m.Table, cmd = m.Table.Update(msg)
 	return m, cmd
 }
 
-func (m model) View() string {
-	return basStyle.Render(m.table.View()) + "\n"
+func (m Model) View() string {
+	return BasStyle.Render(m.Table.View()) + "\n"
 }
