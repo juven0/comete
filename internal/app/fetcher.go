@@ -1,16 +1,23 @@
 package app
 
 import (
-	"fmt"
+	"io/ioutil"
 	"net/http"
+	"os"
 )
 
-func Fetcher(location string) string {
-	cometeUrl := "http://google.com"
-	_, err := http.Get(cometeUrl)
+var BASE_URL = os.Getenv("BASE_URL")
+
+func Fetcher(location, mode string) ([]byte, error) {
+	cometeUrl := "https://comete.onrender.com/api/comete/ambositra/day"
+	resp, err := http.Get(cometeUrl)
 	if err != nil {
-		fmt.Println("fetche data error !!")
-		return ""
+		return nil, err
 	}
-	return "data is here ... please change it !!!"
+	defer resp.Body.Close()
+	data, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+	return data, nil
 }

@@ -4,8 +4,8 @@ import "fmt"
 
 func App() {
 	fmt.Println("loading wathever of you country .....")
-	resultData := Fetcher(GetLocation())
-	fmt.Println(resultData)
+	// resultData := Fetcher(GetLocation())
+	// fmt.Println(resultData)
 	//please complet this ....!!
 }
 func GetLocation() string {

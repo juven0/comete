@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bytes"
 	"comete/cmd/tea"
+	"comete/internal/app"
 	"comete/internal/types"
 	"encoding/json"
 	"fmt"
@@ -12,8 +14,8 @@ import (
 	"github.com/charmbracelet/lipgloss"
 )
 
-type Weathers struct {
-	Weathers []types.Weather `json:"weathers"`
+var Weathers struct {
+	Weathers []types.Weather `json:"data"`
 }
 
 func main() {
@@ -32,15 +34,23 @@ $$ |      $$ |  $$ |$$ | $$ | $$ |$$   ____|  $$ |$$\ $$   ____|
 	fmt.Println(asciiArt)
 	fmt.Println("☀️")
 
-	jsonData, err := os.Open("./datatest.json")
+	// jsonData, err := os.Open("./datatest.json")
+	// if err != nil {
+	// 	return
+	// }
+	// defer jsonData.Close()
+	data, err := app.Fetcher("ambositra", "hourly")
 	if err != nil {
+		fmt.Println("no data")
 		return
 	}
-	defer jsonData.Close()
-	var weathers Weathers
-	data := json.NewDecoder(jsonData)
-	data.Decode(&weathers)
-	fmt.Println(weathers.Weathers[0])
+	reader := bytes.NewReader(data)
+
+	if err := json.NewDecoder(reader).Decode(&Weathers); err != nil {
+		return
+	}
+
+	fmt.Println(Weathers.Weathers[0])
 
 	columns := []table.Column{
 		{Title: "icon", Width: 20},
@@ -68,9 +78,9 @@ $$ |      $$ |  $$ |$$ | $$ | $$ |$$   ____|  $$ |$$\ $$   ____|
 		Bold(false)
 	t.SetStyles(s)
 
-	m := tea.Model{Table: t}
+	model := tea.Model{Table: t}
 
-	if _, err := tearoot.NewProgram(m).Run(); err != nil {
+	if _, err := tearoot.NewProgram(model).Run(); err != nil {
 		fmt.Println("Error running program:", err)
 		os.Exit(1)
 	}
