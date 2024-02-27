@@ -1,6 +1,7 @@
 package tea
 
 import (
+	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/table"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
@@ -11,10 +12,17 @@ var BasStyle = lipgloss.NewStyle().
 	BorderBottomForeground(lipgloss.Color("240"))
 
 type Model struct {
+	List  list.Model
 	Table table.Model
 }
 
 func (m Model) Init() tea.Cmd { return nil }
+
+func (m Model) InitList(width, heigth int, title string) {
+	m.List = list.New([]list.Item{}, list.NewDefaultDelegate(), width, heigth)
+	m.List.Title = title
+	m.List.SetItems([]list.Item{})
+}
 
 func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmd tea.Cmd

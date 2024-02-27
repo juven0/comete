@@ -43,12 +43,13 @@ $$ |      $$ |  $$ |$$ | $$ | $$ |$$   ____|  $$ |$$\ $$   ____|
 	fmt.Println(weathers.Weathers[0])
 
 	columns := []table.Column{
+		{Title: "icon", Width: 20},
 		{Title: "Condition", Width: 10},
 		{Title: "Temperature ", Width: 10},
 	}
 
 	rows := []table.Row{
-		{"tsara", "19 C"},
+		{"", "tsara", "19 C"},
 	}
 
 	t := table.New(
