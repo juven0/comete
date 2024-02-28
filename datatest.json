@@ -1,5 +1,5 @@
 {
-    "weathers":[{
+    "data":[{
     "date": "2024-01-24T05:00:00",
     "weather": "mostly_cloudy",
     "icon": 5,

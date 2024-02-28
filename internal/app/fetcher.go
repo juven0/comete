@@ -1,7 +1,7 @@
 package app
 
 import (
-	"io/ioutil"
+	"io"
 	"net/http"
 	"os"
 )
@@ -15,7 +15,7 @@ func Fetcher(location, mode string) ([]byte, error) {
 		return nil, err
 	}
 	defer resp.Body.Close()
-	data, err := ioutil.ReadAll(resp.Body)
+	data, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
 	}

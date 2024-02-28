@@ -1,12 +1,27 @@
 package app
 
-import "fmt"
+import (
+	"comete/internal/types"
+	"encoding/json"
+	"fmt"
+	"os"
+)
 
-func App() {
-	fmt.Println("loading wathever of you country .....")
-	// resultData := Fetcher(GetLocation())
-	// fmt.Println(resultData)
-	//please complet this ....!!
+var Weathers struct {
+	Weathers []types.Weather `json:"data"`
+}
+
+func App() ([]types.Weather, error) {
+	jsonData, err := os.Open("./datatest.json")
+	if err != nil {
+		fmt.Println(err)
+		return nil, err
+	}
+	if err := json.NewDecoder(jsonData).Decode(&Weathers); err != nil {
+		fmt.Println(err)
+		return nil, err
+	}
+	return Weathers.Weathers, nil
 }
 func GetLocation() string {
 	fmt.Println("do some things....")
