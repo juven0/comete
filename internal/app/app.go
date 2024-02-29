@@ -11,17 +11,18 @@ var Weathers struct {
 	Weathers []types.Weather `json:"data"`
 }
 
-func App() ([]types.Weather, error) {
+func App(ch chan []types.Weather) {
 	jsonData, err := os.Open("./datatest.json")
 	if err != nil {
 		fmt.Println(err)
-		return nil, err
+		return
 	}
 	if err := json.NewDecoder(jsonData).Decode(&Weathers); err != nil {
 		fmt.Println(err)
-		return nil, err
+		return
 	}
-	return Weathers.Weathers, nil
+	ch <- Weathers.Weathers
+	return
 }
 func GetLocation() string {
 	fmt.Println("do some things....")

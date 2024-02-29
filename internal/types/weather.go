@@ -11,4 +11,6 @@ type Weather struct {
 	Precipitation Precipitation `json:"precipitation"`
 }
 
+func (i Weather) Title() string       { return i.Weather }
+func (i Weather) Description() string { return i.Summary }
 func (w Weather) FilterValue() string { return "" }
