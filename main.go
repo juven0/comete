@@ -3,6 +3,7 @@ package main
 import (
 	"comete/internal/app"
 	"comete/internal/types"
+	"encoding/json"
 	"fmt"
 	"os"
 
@@ -50,17 +51,31 @@ $$ |      $$ |  $$ |$$ | $$ | $$ |$$   ____|  $$ |$$\ $$   ____|
 
 	tb := table.New(os.Stdout)
 	tb.SetRowLines(false)
-	tb.SetHeaders("comete")
-	tb.AddHeaders("Date", "Icon", "Weather", "Sumary", "Temperature", "Cloud cover")
-	tb.SetHeaderColSpans(0, 6)
+	// tb.SetHeaders("comete")
+	// tb.SetHeaderColSpans(0, 6)
 	tb.SetHeaderStyle(table.StyleBold)
 	tb.SetHeaderStyle(table.StyleBlue)
 	tb.SetDividers(table.UnicodeRoundedDividers)
 	for _, e := range weatheres {
-		tb.AddRow(fmt.Sprintf("%v", e.Date), fmt.Sprintf("%d", e.Icon), e.Weather, e.Summary, fmt.Sprintf("%f", e.Temperature), fmt.Sprintf("%d", e.Cloud_cover.Total))
+		//tb.AddHeaders()
+		tb.AddRows()
+		//tb.AddRow(fmt.Sprintf("%v", e.Date), fmt.Sprintf("%d", e.Icon), e.Weather, e.Summary, fmt.Sprintf("%f", e.Temperature), fmt.Sprintf("%d", e.Cloud_cover.Total))
+		jsonData, err := json.Marshal(e)
+		if err != nil {
+			return
+		}
+		var data map[string]interface{}
+		err = json.Unmarshal(jsonData, &data)
+		if err != nil {
+			return
+		}
+		// for _, value := range data {
+		// 	fmt.Println(value)
+		// }
 	}
 
 	tb.Render()
+	// tb.Render()
 
 }
 
